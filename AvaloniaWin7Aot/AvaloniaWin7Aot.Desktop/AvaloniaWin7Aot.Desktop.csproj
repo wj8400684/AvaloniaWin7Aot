@@ -8,9 +8,12 @@
         <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     </PropertyGroup>
 
-<!--    <PropertyGroup Condition="$'(Configuration)|$(Platfrom)'=='Release|AnyCPU'">-->
-<!--        -->
-<!--    </PropertyGroup>-->
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <WindowsSupportedOSPlatformVersion>5.1</WindowsSupportedOSPlatformVersion>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+        <TargetPlatformMinVersion>5.1</TargetPlatformMinVersion>
+    </PropertyGroup>
     
     <PropertyGroup>
         <ApplicationManifest>app.manifest</ApplicationManifest>
