@@ -2,13 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWin7Aot", "AvaloniaWin7Aot\AvaloniaWin7Aot\AvaloniaWin7Aot.csproj", "{9172A888-43D7-4DA1-BE33-AE3DFB2277F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWin7Aot.Android", "AvaloniaWin7Aot\AvaloniaWin7Aot.Android\AvaloniaWin7Aot.Android.csproj", "{7C554901-1E6F-4085-8782-9E74BC214F98}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWin7Aot.Desktop", "AvaloniaWin7Aot\AvaloniaWin7Aot.Desktop\AvaloniaWin7Aot.Desktop.csproj", "{EE25F10D-C7E8-48F7-9C0B-FF550921E50D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWin7Aot.iOS", "AvaloniaWin7Aot\AvaloniaWin7Aot.iOS\AvaloniaWin7Aot.iOS.csproj", "{5795A820-78DD-49C2-9B37-A89EE57BA52D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWin7Aot.Browser", "AvaloniaWin7Aot\AvaloniaWin7Aot.Browser\AvaloniaWin7Aot.Browser.csproj", "{EBDAD27A-438E-4D4B-9107-6515C3FC0405}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,25 +14,9 @@ Global
 		{9172A888-43D7-4DA1-BE33-AE3DFB2277F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9172A888-43D7-4DA1-BE33-AE3DFB2277F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9172A888-43D7-4DA1-BE33-AE3DFB2277F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C554901-1E6F-4085-8782-9E74BC214F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C554901-1E6F-4085-8782-9E74BC214F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C554901-1E6F-4085-8782-9E74BC214F98}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{7C554901-1E6F-4085-8782-9E74BC214F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C554901-1E6F-4085-8782-9E74BC214F98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C554901-1E6F-4085-8782-9E74BC214F98}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{EE25F10D-C7E8-48F7-9C0B-FF550921E50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE25F10D-C7E8-48F7-9C0B-FF550921E50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE25F10D-C7E8-48F7-9C0B-FF550921E50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE25F10D-C7E8-48F7-9C0B-FF550921E50D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5795A820-78DD-49C2-9B37-A89EE57BA52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5795A820-78DD-49C2-9B37-A89EE57BA52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5795A820-78DD-49C2-9B37-A89EE57BA52D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{5795A820-78DD-49C2-9B37-A89EE57BA52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5795A820-78DD-49C2-9B37-A89EE57BA52D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5795A820-78DD-49C2-9B37-A89EE57BA52D}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{EBDAD27A-438E-4D4B-9107-6515C3FC0405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBDAD27A-438E-4D4B-9107-6515C3FC0405}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBDAD27A-438E-4D4B-9107-6515C3FC0405}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBDAD27A-438E-4D4B-9107-6515C3FC0405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

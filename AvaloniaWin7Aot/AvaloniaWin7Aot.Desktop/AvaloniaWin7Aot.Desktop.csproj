@@ -8,6 +8,10 @@
         <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     </PropertyGroup>
 
+<!--    <PropertyGroup Condition="$'(Configuration)|$(Platfrom)'=='Release|AnyCPU'">-->
+<!--        -->
+<!--    </PropertyGroup>-->
+    
     <PropertyGroup>
         <ApplicationManifest>app.manifest</ApplicationManifest>
     </PropertyGroup>
