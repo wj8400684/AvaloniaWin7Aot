@@ -14,7 +14,7 @@
         <RuntimeIdentifier>win-x64</RuntimeIdentifier>
         <TargetPlatformMinVersion>5.1</TargetPlatformMinVersion>
     </PropertyGroup>
-    
+
     <PropertyGroup>
         <ApplicationManifest>app.manifest</ApplicationManifest>
     </PropertyGroup>
