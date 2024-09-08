@@ -29,4 +29,7 @@
     <ItemGroup>
         <ProjectReference Include="..\AvaloniaWin7Aot\AvaloniaWin7Aot.csproj"/>
     </ItemGroup>
+    <ItemGroup>
+        <RdXmlFile Include="rd.xml" />
+    </ItemGroup>
 </Project>
