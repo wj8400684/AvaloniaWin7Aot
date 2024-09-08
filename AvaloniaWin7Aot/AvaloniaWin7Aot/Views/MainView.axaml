@@ -12,5 +12,7 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Button Content="button" 
+            Padding="20,10"/>
+    
 </UserControl>
