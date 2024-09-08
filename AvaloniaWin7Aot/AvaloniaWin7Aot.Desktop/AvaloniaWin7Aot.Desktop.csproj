@@ -8,12 +8,12 @@
         <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     </PropertyGroup>
 
-    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-        <InvariantGlobalization>true</InvariantGlobalization>
-        <WindowsSupportedOSPlatformVersion>5.1</WindowsSupportedOSPlatformVersion>
-        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-        <TargetPlatformMinVersion>5.1</TargetPlatformMinVersion>
-    </PropertyGroup>
+<!--    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">-->
+<!--        <InvariantGlobalization>true</InvariantGlobalization>-->
+<!--        <WindowsSupportedOSPlatformVersion>5.1</WindowsSupportedOSPlatformVersion>-->
+<!--        <RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
+<!--        <TargetPlatformMinVersion>5.1</TargetPlatformMinVersion>-->
+<!--    </PropertyGroup>-->
 
     <PropertyGroup>
         <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -23,7 +23,7 @@
         <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)"/>
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
         <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)"/>
-        <PackageReference Include="VC-LTL" Version="5.1.1" />
+<!--        <PackageReference Include="VC-LTL" Version="5.1.1" />-->
     </ItemGroup>
 
     <ItemGroup>
