@@ -1,13 +1,10 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="AvaloniaWin7Aot.App"
-             RequestedThemeVariant="Default"
-             xmlns:u-semi="https://irihi.tech/ursa/themes/semi"
-             xmlns:semi="https://irihi.tech/semi">
+             RequestedThemeVariant="Default">
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
   
              <Application.Styles>
-                 <semi:SemiTheme Locale="zh-CN" />
-                 <u-semi:SemiTheme Locale="zh-CN" />
+                 <FluentTheme />
              </Application.Styles>
 </Application>
